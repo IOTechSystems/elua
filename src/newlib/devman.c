@@ -2,7 +2,9 @@
 
 #include <string.h>
 #include <stdio.h>
+#ifndef __ZEPHYR__
 #include <fcntl.h>
+#endif
 #include <reent.h>
 #include <errno.h>
 #include <stdlib.h>
